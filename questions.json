@@ -1,0 +1,962 @@
+[
+{
+    "id": 1,
+    "category": "Python",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["function", "define", "def", "func"],
+    "answer": "def"
+},
+{
+    "id": 2,
+    "category": "Python",
+    "difficulty": "Easy",
+    "question": "Which symbol is used to write a comment in Python?",
+    "options": ["//", "#", "/*", "--"],
+    "answer": "#"
+},
+{
+    "id": 3,
+    "category": "Python",
+    "difficulty": "Easy",
+    "question": "Which data type stores True or False values?",
+    "options": ["int", "bool", "str", "float"],
+    "answer": "bool"
+},
+{
+    "id": 4,
+    "category": "Python",
+    "difficulty": "Easy",
+    "question": "Which function is used to display output?",
+    "options": ["echo()", "display()", "print()", "show()"],
+    "answer": "print()"
+},
+{
+    "id": 5,
+    "category": "Python",
+    "difficulty": "Easy",
+    "question": "Python is a ____ language.",
+    "options": ["Compiled", "Interpreted", "Machine", "Assembly"],
+    "answer": "Interpreted"
+},
+{
+    "id": 6,
+    "category": "Python",
+    "difficulty": "Medium",
+    "question": "Which data structure stores key-value pairs?",
+    "options": ["List", "Tuple", "Dictionary", "Set"],
+    "answer": "Dictionary"
+},
+{
+    "id": 7,
+    "category": "Python",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to handle exceptions?",
+    "options": ["catch", "except", "error", "handle"],
+    "answer": "except"
+},
+{
+    "id": 8,
+    "category": "Python",
+    "difficulty": "Medium",
+    "question": "Which loop executes until a condition becomes false?",
+    "options": ["for", "while", "switch", "repeat"],
+    "answer": "while"
+},
+{
+    "id": 9,
+    "category": "Python",
+    "difficulty": "Medium",
+    "question": "Which operator checks equality?",
+    "options": ["=", "==", "!=", "<>"],
+    "answer": "=="
+},
+{
+    "id": 10,
+    "category": "Python",
+    "difficulty": "Medium",
+    "question": "Which keyword exits a loop immediately?",
+    "options": ["continue", "exit", "stop", "break"],
+    "answer": "break"
+},
+{
+    "id": 11,
+    "category": "Python",
+    "difficulty": "Hard",
+    "question": "Which module is commonly used to work with JSON data?",
+    "options": ["pickle", "json", "csv", "os"],
+    "answer": "json"
+},
+{
+    "id": 12,
+    "category": "Python",
+    "difficulty": "Hard",
+    "question": "Which keyword creates an anonymous function?",
+    "options": ["lambda", "def", "anonymous", "func"],
+    "answer": "lambda"
+},
+{
+    "id": 13,
+    "category": "Python",
+    "difficulty": "Hard",
+    "question": "Which method adds an item to the end of a list?",
+    "options": ["insert()", "append()", "add()", "push()"],
+    "answer": "append()"
+},
+{
+    "id": 14,
+    "category": "Python",
+    "difficulty": "Hard",
+    "question": "Which function returns the length of a list?",
+    "options": ["count()", "size()", "length()", "len()"],
+    "answer": "len()"
+},
+{
+    "id": 15,
+    "category": "Python",
+    "difficulty": "Hard",
+    "question": "Which file extension is used for Python programs?",
+    "options": [".java", ".py", ".cpp", ".html"],
+    "answer": ".py"
+},
+{
+    "id": 16,
+    "category": "HTML",
+    "difficulty": "Easy",
+    "question": "Which HTML tag is used to create the largest heading?",
+    "options": ["<heading>", "<h1>", "<head>", "<title>"],
+    "answer": "<h1>"
+},
+{
+    "id": 17,
+    "category": "HTML",
+    "difficulty": "Easy",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+},
+{
+    "id": 18,
+    "category": "HTML",
+    "difficulty": "Easy",
+    "question": "Which tag is used to insert an image?",
+    "options": ["<img>", "<image>", "<picture>", "<src>"],
+    "answer": "<img>"
+},
+{
+    "id": 19,
+    "category": "HTML",
+    "difficulty": "Easy",
+    "question": "Which HTML tag creates a paragraph?",
+    "options": ["<para>", "<text>", "<p>", "<paragraph>"],
+    "answer": "<p>"
+},
+{
+    "id": 20,
+    "category": "HTML",
+    "difficulty": "Easy",
+    "question": "Which tag is used to create a line break?",
+    "options": ["<break>", "<lb>", "<br>", "<hr>"],
+    "answer": "<br>"
+},
+{
+    "id": 21,
+    "category": "HTML",
+    "difficulty": "Medium",
+    "question": "Which HTML tag is used to create an unordered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<list>"],
+    "answer": "<ul>"
+},
+{
+    "id": 22,
+    "category": "HTML",
+    "difficulty": "Medium",
+    "question": "Which attribute specifies the image location?",
+    "options": ["href", "src", "alt", "link"],
+    "answer": "src"
+},
+{
+    "id": 23,
+    "category": "HTML",
+    "difficulty": "Medium",
+    "question": "Which HTML tag is used for table rows?",
+    "options": ["<td>", "<table>", "<tr>", "<th>"],
+    "answer": "<tr>"
+},
+{
+    "id": 24,
+    "category": "HTML",
+    "difficulty": "Medium",
+    "question": "Which tag defines the title shown on the browser tab?",
+    "options": ["<meta>", "<title>", "<head>", "<caption>"],
+    "answer": "<title>"
+},
+{
+    "id": 25,
+    "category": "HTML",
+    "difficulty": "Medium",
+    "question": "Which tag is used to create a form?",
+    "options": ["<input>", "<form>", "<fieldset>", "<label>"],
+    "answer": "<form>"
+},
+{
+    "id": 26,
+    "category": "HTML",
+    "difficulty": "Hard",
+    "question": "Which HTML element is used to embed JavaScript?",
+    "options": ["<js>", "<script>", "<javascript>", "<code>"],
+    "answer": "<script>"
+},
+{
+    "id": 27,
+    "category": "HTML",
+    "difficulty": "Hard",
+    "question": "Which attribute provides alternate text for an image?",
+    "options": ["title", "alt", "name", "value"],
+    "answer": "alt"
+},
+{
+    "id": 28,
+    "category": "HTML",
+    "difficulty": "Hard",
+    "question": "Which HTML5 tag represents navigation links?",
+    "options": ["<nav>", "<menu>", "<section>", "<aside>"],
+    "answer": "<nav>"
+},
+{
+    "id": 29,
+    "category": "HTML",
+    "difficulty": "Hard",
+    "question": "Which tag is used for the largest section heading inside a webpage?",
+    "options": ["<h1>", "<header>", "<head>", "<strong>"],
+    "answer": "<h1>"
+},
+{
+    "id": 30,
+    "category": "HTML",
+    "difficulty": "Hard",
+    "question": "Which HTML element contains metadata about the webpage?",
+    "options": ["<head>", "<body>", "<footer>", "<main>"],
+    "answer": "<head>"
+},
+{
+    "id": 31,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": ["int", "var", "string", "define"],
+    "answer": "var"
+},
+{
+    "id": 32,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": ["//", "/* */", "#", "--"],
+    "answer": "//"
+},
+{
+    "id": 33,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which function displays a popup message?",
+    "options": ["print()", "alert()", "prompt()", "show()"],
+    "answer": "alert()"
+},
+{
+    "id": 34,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "JavaScript code is written inside which HTML tag?",
+    "options": ["<style>", "<script>", "<js>", "<javascript>"],
+    "answer": "<script>"
+},
+{
+    "id": 35,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "JavaScript is mainly used to make webpages ____.",
+    "options": ["Static", "Interactive", "Offline", "Printed"],
+    "answer": "Interactive"
+},
+{
+    "id": 36,
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "question": "Which operator checks both value and data type?",
+    "options": ["==", "=", "===", "!="],
+    "answer": "==="
+},
+{
+    "id": 37,
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "question": "Which keyword declares a constant variable?",
+    "options": ["var", "let", "const", "constant"],
+    "answer": "const"
+},
+{
+    "id": 38,
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "question": "Which loop is commonly used to iterate through arrays?",
+    "options": ["for", "switch", "while", "if"],
+    "answer": "for"
+},
+{
+    "id": 39,
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "question": "Which method writes output to the browser console?",
+    "options": ["console.log()", "print()", "display()", "echo()"],
+    "answer": "console.log()"
+},
+{
+    "id": 40,
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "question": "Which event occurs when a button is clicked?",
+    "options": ["onhover", "onclick", "onload", "onfocus"],
+    "answer": "onclick"
+},
+{
+    "id": 41,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": ["JSON.stringify()", "JSON.parse()", "parseJSON()", "toObject()"],
+    "answer": "JSON.parse()"
+},
+{
+    "id": 42,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which keyword stops the execution of a loop?",
+    "options": ["continue", "stop", "break", "exit"],
+    "answer": "break"
+},
+{
+    "id": 43,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which array method adds an element at the end of an array?",
+    "options": ["push()", "append()", "add()", "insert()"],
+    "answer": "push()"
+},
+{
+    "id": 44,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which function converts a JavaScript object into a JSON string?",
+    "options": ["JSON.parse()", "JSON.stringify()", "toJSON()", "stringifyObject()"],
+    "answer": "JSON.stringify()"
+},
+{
+    "id": 45,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which keyword is used to define a function in JavaScript?",
+    "options": ["function", "func", "define", "method"],
+    "answer": "function"
+},
+{
+    "id": 46,
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "What is the capital city of India?",
+    "options": ["Mumbai", "Delhi", "Chennai", "Kolkata"],
+    "answer": "Delhi"
+},
+{
+    "id": 47,
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Mars"
+},
+{
+    "id": 48,
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "How many continents are there in the world?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+},
+{
+    "id": 49,
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Indian", "Atlantic", "Pacific", "Arctic"],
+    "answer": "Pacific"
+},
+{
+    "id": 50,
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Who is known as the Father of the Nation in India?",
+    "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "B. R. Ambedkar"],
+    "answer": "Mahatma Gandhi"
+},
+{
+    "id": 51,
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Ganga", "Yangtze"],
+    "answer": "Nile"
+},
+{
+    "id": 52,
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Who wrote the Indian National Anthem?",
+    "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Sarojini Naidu", "Subhas Chandra Bose"],
+    "answer": "Rabindranath Tagore"
+},
+{
+    "id": 53,
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+    "answer": "Carbon Dioxide"
+},
+{
+    "id": 54,
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which is the largest desert in the world?",
+    "options": ["Sahara", "Arabian", "Gobi", "Kalahari"],
+    "answer": "Sahara"
+},
+{
+    "id": 55,
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Who invented the telephone?",
+    "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "James Watt"],
+    "answer": "Alexander Graham Bell"
+},
+{
+    "id": 56,
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Which country has the largest population in the world (current)?",
+    "options": ["India", "China", "United States", "Indonesia"],
+    "answer": "India"
+},
+{
+    "id": 57,
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Which is the smallest bone in the human body?",
+    "options": ["Femur", "Stapes", "Ulna", "Radius"],
+    "answer": "Stapes"
+},
+{
+    "id": 58,
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Who is known as the Missile Man of India?",
+    "options": ["Vikram Sarabhai", "A. P. J. Abdul Kalam", "Homi Bhabha", "C. V. Raman"],
+    "answer": "A. P. J. Abdul Kalam"
+},
+{
+    "id": 59,
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Which planet has the maximum number of known moons?",
+    "options": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+    "answer": "Saturn"
+},
+{
+    "id": 60,
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "The headquarters of the United Nations is located in which city?",
+    "options": ["Geneva", "New York", "Paris", "London"],
+    "answer": "New York"
+},
+{
+    "id": 61,
+    "category": "C Programming",
+    "difficulty": "Easy",
+    "question": "Who developed the C programming language?",
+    "options": ["Dennis Ritchie", "James Gosling", "Bjarne Stroustrup", "Guido van Rossum"],
+    "answer": "Dennis Ritchie"
+},
+{
+    "id": 62,
+    "category": "C Programming",
+    "difficulty": "Easy",
+    "question": "Which header file is required for printf()?",
+    "options": ["math.h", "stdio.h", "string.h", "stdlib.h"],
+    "answer": "stdio.h"
+},
+{
+    "id": 63,
+    "category": "C Programming",
+    "difficulty": "Easy",
+    "question": "Which function is used to take input from the user?",
+    "options": ["printf()", "input()", "scanf()", "cin"],
+    "answer": "scanf()"
+},
+{
+    "id": 64,
+    "category": "C Programming",
+    "difficulty": "Easy",
+    "question": "Which symbol is used to end a statement in C?",
+    "options": [".", ",", ";", ":"],
+    "answer": ";"
+},
+{
+    "id": 65,
+    "category": "C Programming",
+    "difficulty": "Easy",
+    "question": "Which data type is used to store integer values?",
+    "options": ["char", "float", "int", "double"],
+    "answer": "int"
+},
+{
+    "id": 66,
+    "category": "C Programming",
+    "difficulty": "Medium",
+    "question": "Which loop executes at least once?",
+    "options": ["for", "while", "do...while", "foreach"],
+    "answer": "do...while"
+},
+{
+    "id": 67,
+    "category": "C Programming",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to return a value from a function?",
+    "options": ["exit", "return", "break", "continue"],
+    "answer": "return"
+},
+{
+    "id": 68,
+    "category": "C Programming",
+    "difficulty": "Medium",
+    "question": "Which operator is used to get the address of a variable?",
+    "options": ["*", "&", "%", "#"],
+    "answer": "&"
+},
+{
+    "id": 69,
+    "category": "C Programming",
+    "difficulty": "Medium",
+    "question": "Which symbol is used to access the value stored at a pointer?",
+    "options": ["&", "*", "#", "%"],
+    "answer": "*"
+},
+{
+    "id": 70,
+    "category": "C Programming",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to define a constant value?",
+    "options": ["const", "constant", "fixed", "final"],
+    "answer": "const"
+},
+{
+    "id": 71,
+    "category": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which function is used to dynamically allocate memory?",
+    "options": ["malloc()", "alloc()", "memory()", "callocMemory()"],
+    "answer": "malloc()"
+},
+{
+    "id": 72,
+    "category": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which header file contains malloc()?",
+    "options": ["stdio.h", "stdlib.h", "string.h", "memory.h"],
+    "answer": "stdlib.h"
+},
+{
+    "id": 73,
+    "category": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which user-defined data type groups different types of variables together?",
+    "options": ["Array", "Pointer", "Structure", "Union"],
+    "answer": "Structure"
+},
+{
+    "id": 74,
+    "category": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which storage class preserves a local variable's value between function calls?",
+    "options": ["auto", "extern", "register", "static"],
+    "answer": "static"
+},
+{
+    "id": 75,
+    "category": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which function is used to free dynamically allocated memory?",
+    "options": ["delete()", "remove()", "free()", "clear()"],
+    "answer": "free()"
+},
+{
+    "id": 76,
+    "category": "Core Java",
+    "difficulty": "Easy",
+    "question": "Who developed Java?",
+    "options": ["Dennis Ritchie", "James Gosling", "Bjarne Stroustrup", "Guido van Rossum"],
+    "answer": "James Gosling"
+},
+{
+    "id": 77,
+    "category": "Core Java",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to define a class in Java?",
+    "options": ["define", "class", "Class", "object"],
+    "answer": "class"
+},
+{
+    "id": 78,
+    "category": "Core Java",
+    "difficulty": "Easy",
+    "question": "Which method is the entry point of every Java program?",
+    "options": ["run()", "start()", "main()", "execute()"],
+    "answer": "main()"
+},
+{
+    "id": 79,
+    "category": "Core Java",
+    "difficulty": "Easy",
+    "question": "Java source code files have which extension?",
+    "options": [".java", ".class", ".py", ".cpp"],
+    "answer": ".java"
+},
+{
+    "id": 80,
+    "category": "Core Java",
+    "difficulty": "Easy",
+    "question": "Java is a ____ programming language.",
+    "options": ["Procedural", "Object-Oriented", "Assembly", "Machine"],
+    "answer": "Object-Oriented"
+},
+{
+    "id": 81,
+    "category": "Core Java",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["inherits", "implements", "extends", "super"],
+    "answer": "extends"
+},
+{
+    "id": 82,
+    "category": "Core Java",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to create an object?",
+    "options": ["create", "new", "object", "instance"],
+    "answer": "new"
+},
+{
+    "id": 83,
+    "category": "Core Java",
+    "difficulty": "Medium",
+    "question": "Which package is imported automatically in every Java program?",
+    "options": ["java.io", "java.util", "java.lang", "java.net"],
+    "answer": "java.lang"
+},
+{
+    "id": 84,
+    "category": "Core Java",
+    "difficulty": "Medium",
+    "question": "Which keyword prevents a class from being inherited?",
+    "options": ["const", "static", "final", "private"],
+    "answer": "final"
+},
+{
+    "id": 85,
+    "category": "Core Java",
+    "difficulty": "Medium",
+    "question": "Which loop is best used when the number of iterations is known?",
+    "options": ["while", "do-while", "for", "foreach"],
+    "answer": "for"
+},
+{
+    "id": 86,
+    "category": "Core Java",
+    "difficulty": "Hard",
+    "question": "Which exception occurs when dividing a number by zero?",
+    "options": ["NullPointerException", "IOException", "ArithmeticException", "ClassNotFoundException"],
+    "answer": "ArithmeticException"
+},
+{
+    "id": 87,
+    "category": "Core Java",
+    "difficulty": "Hard",
+    "question": "Which interface is implemented to create a thread?",
+    "options": ["Runnable", "Serializable", "Cloneable", "Comparable"],
+    "answer": "Runnable"
+},
+{
+    "id": 88,
+    "category": "Core Java",
+    "difficulty": "Hard",
+    "question": "Which collection stores unique elements only?",
+    "options": ["ArrayList", "LinkedList", "HashSet", "Vector"],
+    "answer": "HashSet"
+},
+{
+    "id": 89,
+    "category": "Core Java",
+    "difficulty": "Hard",
+    "question": "Which keyword is used to call the parent class constructor?",
+    "options": ["parent()", "base()", "this()", "super()"],
+    "answer": "super()"
+},
+{
+    "id": 90,
+    "category": "Core Java",
+    "difficulty": "Hard",
+    "question": "Which JVM component converts bytecode into machine code at runtime?",
+    "options": ["Interpreter", "Compiler", "JIT Compiler", "Debugger"],
+    "answer": "JIT Compiler"
+},
+{
+    "id": 91,
+    "category": "Artificial Intelligence",
+    "difficulty": "Easy",
+    "question": "What does AI stand for?",
+    "options": ["Automatic Intelligence", "Artificial Intelligence", "Advanced Interface", "Applied Intelligence"],
+    "answer": "Artificial Intelligence"
+},
+{
+    "id": 92,
+    "category": "Artificial Intelligence",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of Artificial Intelligence?",
+    "options": ["Calculator", "Voice Assistant", "Keyboard", "Printer"],
+    "answer": "Voice Assistant"
+},
+{
+    "id": 93,
+    "category": "Artificial Intelligence",
+    "difficulty": "Easy",
+    "question": "Which company developed ChatGPT?",
+    "options": ["Google", "Microsoft", "OpenAI", "IBM"],
+    "answer": "OpenAI"
+},
+{
+    "id": 94,
+    "category": "Artificial Intelligence",
+    "difficulty": "Easy",
+    "question": "AI is mainly used to make computers ____.",
+    "options": ["Heavier", "Smarter", "Slower", "Cheaper"],
+    "answer": "Smarter"
+},
+{
+    "id": 95,
+    "category": "Artificial Intelligence",
+    "difficulty": "Easy",
+    "question": "Which field focuses on making machines learn from data?",
+    "options": ["Cyber Security", "Machine Learning", "Networking", "Cloud Computing"],
+    "answer": "Machine Learning"
+},
+{
+    "id": 96,
+    "category": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Which type of learning uses labeled data?",
+    "options": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "Deep Learning"],
+    "answer": "Supervised Learning"
+},
+{
+    "id": 97,
+    "category": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Which AI technology is used to understand human language?",
+    "options": ["Computer Vision", "Natural Language Processing", "Robotics", "Automation"],
+    "answer": "Natural Language Processing"
+},
+{
+    "id": 98,
+    "category": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Which AI branch is used for image recognition?",
+    "options": ["Computer Vision", "Data Mining", "Cloud Computing", "Networking"],
+    "answer": "Computer Vision"
+},
+{
+    "id": 99,
+    "category": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Which programming language is most commonly used for AI?",
+    "options": ["Python", "HTML", "CSS", "SQL"],
+    "answer": "Python"
+},
+{
+    "id": 100,
+    "category": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Which of the following is a popular Machine Learning library in Python?",
+    "options": ["NumPy", "Scikit-learn", "Tkinter", "Flask"],
+    "answer": "Scikit-learn"
+},
+{
+    "id": 101,
+    "category": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "question": "Which type of neural network is commonly used for image classification?",
+    "options": ["CNN", "RNN", "GAN", "SVM"],
+    "answer": "CNN"
+},
+{
+    "id": 102,
+    "category": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "question": "Which learning method improves through rewards and penalties?",
+    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Deep Learning"],
+    "answer": "Reinforcement Learning"
+},
+{
+    "id": 103,
+    "category": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "question": "Which neural network is mainly used for sequential data such as text?",
+    "options": ["CNN", "RNN", "KNN", "Decision Tree"],
+    "answer": "RNN"
+},
+{
+    "id": 104,
+    "category": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "question": "What does NLP stand for?",
+    "options": ["Natural Language Processing", "Neural Learning Program", "Natural Logic Processing", "Network Learning Process"],
+    "answer": "Natural Language Processing"
+},
+{
+    "id": 105,
+    "category": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "question": "Which AI model type is ChatGPT primarily based on?",
+    "options": ["Transformer", "Decision Tree", "Naive Bayes", "Linear Regression"],
+    "answer": "Transformer"
+},
+{
+    "id": 106,
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure follows the LIFO principle?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "answer": "Stack"
+},
+{
+    "id": 107,
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+},
+{
+    "id": 108,
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure stores elements in contiguous memory locations?",
+    "options": ["Array", "Linked List", "Tree", "Graph"],
+    "answer": "Array"
+},
+{
+    "id": 109,
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure consists of nodes connected by links?",
+    "options": ["Array", "Linked List", "Stack", "Queue"],
+    "answer": "Linked List"
+},
+{
+    "id": 110,
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure is mainly used to represent hierarchical data?",
+    "options": ["Tree", "Queue", "Stack", "Array"],
+    "answer": "Tree"
+},
+{
+    "id": 111,
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which traversal visits the root node first?",
+    "options": ["Inorder", "Postorder", "Preorder", "Level Order"],
+    "answer": "Preorder"
+},
+{
+    "id": 112,
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which data structure is commonly used for implementing recursion?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "answer": "Stack"
+},
+{
+    "id": 113,
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which operation removes an element from a queue?",
+    "options": ["Push", "Enqueue", "Pop", "Dequeue"],
+    "answer": "Dequeue"
+},
+{
+    "id": 114,
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which search algorithm requires the data to be sorted?",
+    "options": ["Linear Search", "Binary Search", "Depth First Search", "Breadth First Search"],
+    "answer": "Binary Search"
+},
+{
+    "id": 115,
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm repeatedly swaps adjacent elements?",
+    "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Heap Sort"],
+    "answer": "Bubble Sort"
+},
+{
+    "id": 116,
+    "category": "Data Structures",
+    "difficulty": "Hard",
+    "question": "Which tree traversal visits the left subtree, root, then right subtree?",
+    "options": ["Preorder", "Postorder", "Inorder", "Level Order"],
+    "answer": "Inorder"
+},
+{
+    "id": 117,
+    "category": "Data Structures",
+    "difficulty": "Hard",
+    "question": "Which data structure is best suited for implementing a priority queue?",
+    "options": ["Array", "Heap", "Linked List", "Stack"],
+    "answer": "Heap"
+},
+{
+    "id": 118,
+    "category": "Data Structures",
+    "difficulty": "Hard",
+    "question": "Which graph traversal algorithm uses a queue?",
+    "options": ["DFS", "BFS", "Dijkstra", "Prim"],
+    "answer": "BFS"
+},
+{
+    "id": 119,
+    "category": "Data Structures",
+    "difficulty": "Hard",
+    "question": "Which data structure efficiently supports insertion and deletion at both ends?",
+    "options": ["Array", "Deque", "Stack", "Binary Tree"],
+    "answer": "Deque"
+},
+{
+    "id": 120,
+    "category": "Data Structures",
+    "difficulty": "Hard",
+    "question": "Which sorting algorithm has the average time complexity of O(n log n)?",
+    "options": ["Bubble Sort", "Selection Sort", "Merge Sort", "Insertion Sort"],
+    "answer": "Merge Sort"
+}
+]

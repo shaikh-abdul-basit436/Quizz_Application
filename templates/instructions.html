@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Instructions</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Quiz Instructions</h1>
+
+<p class="subtitle">
+
+Please read the instructions carefully before starting.
+
+</p>
+
+<div class="features">
+
+<div class="feature">
+📝
+<span>Each question has one correct answer.</span>
+</div>
+
+<div class="feature">
+⏱
+<span>Answer carefully before moving ahead.</span>
+</div>
+
+<div class="feature">
+🏆
+<span>Your score will be shown instantly.</span>
+</div>
+
+<div class="feature">
+🚫
+<span>Do not refresh the page during the quiz.</span>
+</div>
+
+</div>
+
+<a href="{{ url_for('category') }}">
+
+<button class="start-btn">
+
+Continue
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

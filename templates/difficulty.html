@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Difficulty</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>Select Difficulty</h1>
+
+            <p class="subtitle">
+                Choose the difficulty level.
+            </p>
+
+            <div class="features">
+
+    <a href="{{ url_for('select_difficulty', difficulty='Easy') }}" class="feature">
+        🟢
+        <span>Easy</span>
+    </a>
+
+    <a href="{{ url_for('select_difficulty', difficulty='Medium') }}" class="feature">
+        🟡
+        <span>Medium</span>
+    </a>
+
+    <a href="{{ url_for('select_difficulty', difficulty='Hard') }}" class="feature">
+        🔴
+        <span>Hard</span>
+    </a>
+
+</div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quiz Result</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Quiz Result</h1>
+
+<p class="subtitle">
+
+{{ category }} | {{ difficulty }}
+
+</p>
+
+<div class="message-box">
+
+{{ message }}
+
+</div>
+
+<div class="feature">
+
+<span>Total Questions</span>
+
+<strong>{{ total }}</strong>
+
+</div>
+
+<div class="feature">
+
+<span>Correct Answers</span>
+
+<strong>{{ score }}</strong>
+
+</div>
+
+<div class="feature">
+
+<span>Wrong Answers</span>
+
+<strong>{{ wrong }}</strong>
+
+</div>
+
+<div class="feature">
+
+<span>Percentage</span>
+
+<strong>{{ percentage }}%</strong>
+
+</div>
+
+<div class="feature">
+
+<span>Status</span>
+
+<strong>
+
+{% if status=="PASS" %}
+
+<span style="color:lime;">PASS ✅</span>
+
+{% else %}
+
+<span style="color:red;">FAIL ❌</span>
+
+{% endif %}
+
+</strong>
+
+</div>
+
+{% if incorrect_answers %}
+
+<h2 style="margin-top:35px;">Incorrect Answers</h2>
+
+{% for item in incorrect_answers %}
+
+<div class="review-card">
+
+<p>
+
+<strong>Question:</strong>
+
+{{ item.question }}
+
+</p>
+
+<p style="color:#ff6961;">
+
+<strong>Your Answer:</strong>
+
+{{ item.your_answer }}
+
+</p>
+
+<p style="color:#7CFC00;">
+
+<strong>Correct Answer:</strong>
+
+{{ item.correct_answer }}
+
+</p>
+
+</div>
+
+{% endfor %}
+
+{% endif %}
+
+<a href="{{ url_for('restart') }}" class="start-btn">
+
+Restart Quiz
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
