@@ -1,4 +1,4 @@
-let time = 15
+let time = 60
 
 const timer = document.getElementById("timer");
 
