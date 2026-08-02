@@ -16,7 +16,7 @@ A modern and interactive **Quiz Application** built using **Python Flask**, desi
   - Artificial Intelligence
   - Data Structures
 
-- 📊 Three Difficulty Levels
+- 📊 Thier are Three Difficulty Levels
   - Easy
   - Medium
   - Hard
