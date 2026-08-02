@@ -752,12 +752,17 @@
     "answer": "Smarter"
 },
 {
-    "id": 95,
-    "category": "Artificial Intelligence",
-    "difficulty": "Easy",
-    "question": "Which field focuses on making machines learn from data?",
-    "options": ["Cyber Security", "Machine Learning", "Networking", "Cloud Computing"],
-    "answer": "Machine Learning"
+  "id": 95,
+  "category": "Artificial Intelligence",
+  "difficulty": "Easy",
+  "question": "What is the primary goal of supervised learning?",
+  "options": [
+    "To find hidden patterns in unlabeled data",
+    "To train a model using labeled data",
+    "To compress large datasets",
+    "To secure machine learning models"
+  ],
+  "answer": "To train a model using labeled data"
 },
 {
     "id": 96,
