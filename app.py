@@ -50,7 +50,7 @@ def select_difficulty(difficulty):
     session["answers"] = {}
 
     # Quiz duration = 60 seconds
-    session["quiz_end_time"] = time.time() + 60
+    session["quiz_end_time"] = time.time() + 15
 
     return redirect(url_for("quiz"))
 
