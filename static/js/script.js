@@ -1,30 +1,44 @@
-let time = 60
+// Get remaining time from sessionStorage, or start with 60 seconds
+let time = 15;
 
 const timer = document.getElementById("timer");
 
-if(timer){
+if (timer) {
 
-setInterval(function(){
+    timer.innerHTML = "Time Left : 0:15";
 
-let minutes=Math.floor(time/60);
+    const interval = setInterval(function () {
 
-let seconds=time%60;
+        let minutes = Math.floor(time / 60);
+        let seconds = time % 60;
 
-seconds=seconds<10?"0"+seconds:seconds;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
 
-timer.innerHTML="Time Left : "+minutes+":"+seconds;
+        timer.innerHTML = `Time Left : ${minutes}:${seconds}`;
 
-if(time<=0){
+        if (time <= 0) {
 
-document.forms[0].submit();
+    clearInterval(interval);
 
+    document.getElementById("autoSubmit").value = "true";
+
+    const actionField = document.getElementById("actionField");
+
+    if (document.querySelector(".submit-btn")) {
+        actionField.value = "submit";
+    } else {
+        actionField.value = "next";
+    }
+
+    document.getElementById("quizForm").submit();
+    return;
 }
 
-time--;
+        time--;
 
-},1000);
-
+    }, 1000);
 }
+
 
 document.querySelectorAll(".option").forEach(option=>{
 

@@ -50,7 +50,6 @@ def select_difficulty(difficulty):
     session["answers"] = {}
 
     # Quiz duration = 60 seconds
-    session["quiz_end_time"] = time.time() + 15
 
     return redirect(url_for("quiz"))
 
@@ -65,11 +64,9 @@ def quiz():
     current = session["current"]
 
     # Calculate remaining quiz time
-    remaining_time = int(session["quiz_end_time"] - time.time())
 
     # Auto submit if time is over
-    if remaining_time <= 0:
-        return redirect(url_for("result"))
+    
 
     if request.method == "POST":
 
@@ -78,17 +75,22 @@ def quiz():
 
         # User cannot go Next or Submit without selecting an answer
         if action in ["next", "submit"] and not selected:
-            saved_answer = session["answers"].get(str(current), "")
 
-            return render_template(
-                "quiz.html",
-                question=questions[current],
-                current=current,
-                total=len(questions),
-                saved_answer=saved_answer,
-                remaining_time=remaining_time,
-                error="Please select an answer before continuing."
-            )
+            # If timer submitted automatically, allow it
+            if request.form.get("auto_submit") != "true":
+
+                saved_answer = session["answers"].get(str(current), "")
+
+                return render_template(
+                    "quiz.html",
+                    question=questions[current],
+                    current=current,
+                    total=len(questions),
+                    saved_answer=saved_answer,
+                    category=session.get("category"),
+                    difficulty=session.get("difficulty"),
+                    error="Please select an answer before continuing."
+                )
 
         # Save selected answer
         if selected:
@@ -98,19 +100,16 @@ def quiz():
 
         # Previous Question
         if action == "previous":
-
             if current > 0:
                 session["current"] -= 1
 
         # Next Question
         elif action == "next":
-
             if current < len(questions) - 1:
                 session["current"] += 1
 
         # Submit Quiz
         elif action == "submit":
-
             return redirect(url_for("result"))
 
         return redirect(url_for("quiz"))
@@ -118,13 +117,14 @@ def quiz():
     saved_answer = session["answers"].get(str(current), "")
 
     return render_template(
-        "quiz.html",
-        question=questions[current],
-        current=current,
-        total=len(questions),
-        saved_answer=saved_answer,
-        remaining_time=remaining_time
-    )
+    "quiz.html",
+    question=questions[current],
+    current=current,
+    total=len(questions),
+    saved_answer=saved_answer,
+    category=session.get("category"),
+    difficulty=session.get("difficulty")
+)
 
 
 @app.route("/result")

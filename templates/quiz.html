@@ -27,7 +27,7 @@
         </div>
 
         <div id="timer" class="timer">
-    Time Left: 01:00
+    Time Left: 0:15
 </div>
 
         <p class="subtitle">
@@ -71,14 +71,23 @@
         name="action"
         id="actionField"
         value=""
+
     >
+
+    <input
+    type="hidden"
+    name="auto_submit"
+    id="autoSubmit"
+    value="false"
+>
+    
 
     <div class="button-group">
 
         {% if current > 0 %}
         <button
-            type="submit"
-            class="btn"
+    type="submit"
+    class="btn submit-btn"
             formnovalidate
             onclick="document.getElementById('actionField').value='previous'">
             ← Previous
@@ -87,15 +96,15 @@
 
         {% if current < total-1 %}
         <button
-            type="submit"
-            class="btn"
+    type="submit"
+    class="btn previous-btn"
             onclick="document.getElementById('actionField').value='next'">
             Next →
         </button>
         {% else %}
         <button
             type="submit"
-            class="btn"
+            class="btn next-btn"
             onclick="document.getElementById('actionField').value='submit'">
             Submit Quiz
         </button>

@@ -16,7 +16,7 @@ body{
     align-items:center;
 }
 
-container{
+.container{
     width:100%;
     display:flex;
     justify-content:center;
@@ -170,6 +170,10 @@ color:#000;
 
     color:black;
 
+    transform:translateX(5px);
+
+    box-shadow:0 5px 15px rgba(212,175,55,.25);
+
 }
 
 .navigation{
@@ -260,8 +264,15 @@ transform:translateY(0);
 }
 
 .option.selected{
+
     background:#D4AF37;
+
     color:black;
+
+    border:2px solid white;
+
+    box-shadow:0 8px 20px rgba(212,175,55,.4);
+
 }
 
 .navigation{
@@ -306,21 +317,37 @@ transform:translateY(0);
 
 .timer{
 
-background:#D4AF37;
+    width:220px;
 
-color:black;
+    margin:25px auto;.progress-bar{
 
-padding:12px;
+    height:12px;
 
-font-size:18px;
+    background:linear-gradient(90deg,#FFD700,#F2C94C);
 
-font-weight:bold;
+    border-radius:20px;
 
-border-radius:8px;
+    transition:.5s;
 
-text-align:center;
+}
 
-margin-bottom:20px;
+    padding:14px 20px;
+
+    background:#D4AF37;
+
+    color:#111;
+
+    border-radius:40px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    box-shadow:0 6px 20px rgba(212,175,55,.35);
+
+    transition:.3s;
 
 }
 
@@ -436,11 +463,53 @@ margin:10px 0;
 line-height:1.6;
 
 }
-@media(max-width:768px){
+@media (max-width:768px){
+
+.card{
+
+    width:95%;
+
+    padding:20px;
+
+}
+
+.question{
+
+    font-size:20px;
+
+}
+
+.option{
+
+    padding:12px;
+
+    font-size:15px;
+
+}
+
+.timer{
+
+    width:160px;
+
+    font-size:16px;
+
+}
+
+.button-group{
+
+    flex-direction:column;
+
+}
+
+.button-group .btn{
+
+    width:100%;
+
+}
 
 .features{
 
-grid-template-columns:1fr;
+    grid-template-columns:1fr;
 
 }
 
@@ -466,5 +535,120 @@ grid-template-columns:1fr;
 }
 
 .button-group .btn{
+
     flex:1;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#D4AF37;
+
+    color:#111;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(212,175,55,.25);
+
+}
+
+
+.button-group .btn:first-child{
+
+    background:#333;
+
+    color:white;
+
+}
+
+.button-group .btn:first-child:hover{
+
+    background:#4b4b4b;
+
+}
+
+.button-group .btn:hover{
+
+    transform:translateY(-3px);
+
+    background:#f2c94c;
+
+    box-shadow:0 12px 25px rgba(212,175,55,.45);
+
+}
+
+.button-group .btn:active{
+
+    transform:scale(.97);
+
+}
+
+
+
+.timer.warning{
+
+    background:#ff9800;
+
+    color:white;
+
+}
+
+.timer.danger{
+
+    background:#e53935;
+
+    color:white;
+
+    animation:pulse .8s infinite;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.06);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
+
+.submit-btn{
+
+    background:#111;
+
+    color:#FFD700;
+
+    border:2px solid #FFD700;
+
+}
+
+.submit-btn:hover{
+
+    background:#FFD700;
+
+    color:#111;
+
+    box-shadow:0 10px 25px rgba(255,215,0,.45);
+
 }
