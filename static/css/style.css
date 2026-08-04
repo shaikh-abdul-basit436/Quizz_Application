@@ -26,8 +26,8 @@ body{
 
 .card{
 
-    width:700px;
-max-width:90%;
+    width:620px;
+    max-width:92%;
 
     background:#1A1A1A;
 
@@ -35,11 +35,11 @@ max-width:90%;
 
     border-radius:18px;
 
-    padding:45px;
+    padding:30px;
 
     box-shadow:0 0 25px rgba(212,175,55,.35);
 
-    animation:fadeIn .8s ease;
+    animation:fade .5s ease;
 
 }
 
@@ -59,7 +59,7 @@ h1{
 
     color:#dddddd;
 
-    margin-bottom:30px;
+    margin-bottom:20px;
 
 }
 
@@ -442,9 +442,9 @@ text-align:center;
 
 .review-card{
 
-margin-top:20px;
+margin-top:16px;
 
-padding:18px;
+padding:15px;
 
 border:1px solid #555;
 
@@ -458,9 +458,9 @@ text-align:left;
 
 .review-card p{
 
-margin:10px 0;
+    margin:6px 0;
 
-line-height:1.6;
+    font-size:15px;
 
 }
 @media (max-width:768px){
@@ -474,24 +474,26 @@ line-height:1.6;
 }
 
 .question{
-
-    font-size:20px;
-
+    font-size:24px;
+    margin:20px 0;
+    line-height:1.4;
 }
 
 .option{
 
-    padding:12px;
+    padding:12px 15px;
 
-    font-size:15px;
+    margin:10px 0;
 
 }
 
 .timer{
 
-    width:160px;
+    width:180px;
 
-    font-size:16px;
+    padding:10px 15px;
+
+    font-size:18px;
 
 }
 
@@ -538,7 +540,7 @@ line-height:1.6;
 
     flex:1;
 
-    padding:15px;
+    padding: 13px;
 
     border:none;
 
@@ -548,7 +550,7 @@ line-height:1.6;
 
     color:#111;
 
-    font-size:17px;
+    font: size 16px;
 
     font-weight:700;
 
