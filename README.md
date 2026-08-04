@@ -247,7 +247,9 @@ It helps support the project and encourages future improvements.
 
 ---
 
-## 📄 License
+## Copyright
 
-This project is developed for educational and learning purposes.
-Feel free to use, modify, and enhance it for personal or academic projects.
+© 2026 Shaikh Abdul Basit. All rights reserved.
+
+This project is provided for viewing and educational purposes only.
+No part of this project may be copied, modified, distributed, or used for commercial purposes without prior written permission from the author.
