@@ -49,5 +49,4 @@ document.querySelectorAll(".option").forEach(o=>o.classList.remove("selected"));
 option.classList.add("selected");
 
 });
-
 });
