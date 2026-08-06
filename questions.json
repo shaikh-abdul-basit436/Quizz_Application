@@ -52,7 +52,7 @@
     "category": "Python",
     "difficulty": "Medium",
     "question": "Which keyword is used to handle exceptions?",
-    "options": ["catch", "except", "error", "handle"],
+    "options": ["catch", "except", "try", "handle"],
     "answer": "except"
 },
 {
