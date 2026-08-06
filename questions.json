@@ -92,7 +92,7 @@
     "category": "Python",
     "difficulty": "Hard",
     "question": "Which keyword creates an anonymous function?",
-    "options": ["lambda", "def", "anonymous", "func"],
+    "options": ["lambda", "flask", "anonymous", "func"],
     "answer": "lambda"
 },
 {
