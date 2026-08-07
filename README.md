@@ -4,7 +4,7 @@ A modern and interactive **Quiz Application** built using **Python Flask**, desi
 
 ---
 
-## 🚀 Features
+## 🚀 Features:
 
 - 🎯 Multiple Quiz Categories:
   - Python
