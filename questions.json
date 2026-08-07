@@ -115,9 +115,10 @@
     "id": 15,
     "category": "Python",
     "difficulty": "Hard",
-    "question": "Which file extension is used for Python programs?",
-    "options": [".java", ".py", ".cpp", ".html"],
-    "answer": ".py"
+  "question": "Which Python library is commonly used for data analysis?",
+  "options": ["NumPy", "Pandas", "Tkinter", "Pygame"],
+  "answer": "Pandas"
+
 },
 {
     "id": 16,
