@@ -65,3 +65,35 @@ document.addEventListener("keydown", function(e) {
     }
 
 });
+
+// ===============================
+// PWA SERVICE WORKER
+// ===============================
+
+if ("serviceWorker" in navigator) {
+
+    window.addEventListener("load", function() {
+
+        navigator.serviceWorker.register(
+            "/static/service-worker.js"
+        )
+        .then(function(registration) {
+
+            console.log(
+                "PWA Service Worker registered successfully:",
+                registration.scope
+            );
+
+        })
+        .catch(function(error) {
+
+            console.log(
+                "PWA Service Worker registration failed:",
+                error
+            );
+
+        });
+
+    });
+
+}
