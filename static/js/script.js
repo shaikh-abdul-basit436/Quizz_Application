@@ -1,4 +1,4 @@
-// Get remaining time from sessionStorage, or start with 60 seconds
+// Get remaining time from sessionStorage, or start with 15 seconds
 let time = 15;
 
 const timer = document.getElementById("timer");
