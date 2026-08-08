@@ -50,3 +50,18 @@ option.classList.add("selected");
 
 });
 });
+
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener("keydown", function(e) {
+
+    if (
+        (e.ctrlKey && ["c", "u", "s", "a"].includes(e.key.toLowerCase())) ||
+        e.key === "F12"
+    ) {
+        e.preventDefault();
+    }
+
+});
