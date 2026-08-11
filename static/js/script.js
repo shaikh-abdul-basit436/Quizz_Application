@@ -97,3 +97,39 @@ if ("serviceWorker" in navigator) {
     });
 
 }
+
+/* =========================
+   LIGHT / DARK MODE
+========================= */
+
+const themeToggle = document.getElementById("themeToggle");
+
+if (themeToggle) {
+
+    // Load saved theme
+    const savedTheme = localStorage.getItem("quizTheme");
+
+    if (savedTheme === "light") {
+        document.body.classList.add("light-mode");
+        themeToggle.textContent = "🌙";
+    }
+
+    themeToggle.addEventListener("click", function () {
+
+        document.body.classList.toggle("light-mode");
+
+        if (document.body.classList.contains("light-mode")) {
+
+            localStorage.setItem("quizTheme", "light");
+
+            themeToggle.textContent = "🌙";
+
+        } else {
+
+            localStorage.setItem("quizTheme", "dark");
+
+            themeToggle.textContent = "☀️";
+        }
+
+    });
+}
