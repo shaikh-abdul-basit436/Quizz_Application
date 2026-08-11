@@ -460,9 +460,14 @@
     "id": 58,
     "category": "General Knowledge",
     "difficulty": "Hard",
-    "question": "Who is known as the Missile Man of India?",
-    "options": ["Vikram Sarabhai", "A. P. J. Abdul Kalam", "Homi Bhabha", "C. V. Raman"],
-    "answer": "A. P. J. Abdul Kalam"
+    "question": "Which Indian mathematician is renowned for his contributions to number theory and infinite series, despite having received little formal mathematical training?",
+    "options": [
+        "Srinivasa Ramanujan",
+        "Aryabhata",
+        "Bhaskara II",
+        "Satyendra Nath Bose"
+    ],
+    "answer": "Srinivasa Ramanujan"
 },
 {
     "id": 59,
