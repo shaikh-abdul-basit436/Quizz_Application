@@ -726,13 +726,18 @@
     "answer": "JIT Compiler"
 },
 {
-    "id": 91,
-    "category": "Artificial Intelligence",
-    "difficulty": "Easy",
-    "question": "What does AI stand for?",
-    "options": ["Automatic Intelligence", "Artificial Intelligence", "Advanced Interface", "Applied Intelligence"],
-    "answer": "Artificial Intelligence"
-},
+  "id": 91,
+  "category": "Artificial Intelligence",
+  "difficulty": "Easy",
+  "question": "What is a chatbot?",
+  "options": [
+    "A program that can communicate with users",
+    "A type of computer mouse",
+    "A computer virus",
+    "A file storage device"
+  ],
+  "answer": "A program that can communicate with users"
+}
 {
     "id": 92,
     "category": "Artificial Intelligence",
