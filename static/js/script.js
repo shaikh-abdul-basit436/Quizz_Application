@@ -147,21 +147,3 @@ if (themeToggle) {
 
     });
 }
-
-// ===============================
-// TAB SWITCH PROTECTION
-// ===============================
-
-document.addEventListener("visibilitychange", function () {
-
-    if (document.hidden) {
-
-        document.body.classList.add("quiz-blurred");
-
-    } else {
-
-        document.body.classList.remove("quiz-blurred");
-
-    }
-
-});
