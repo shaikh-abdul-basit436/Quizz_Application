@@ -178,27 +178,6 @@ Restart Quiz
 
 ---
 
-## 🎯 Categories
-
-- Python
-- HTML
-- JavaScript
-- General Knowledge
-- C Programming
-- Core Java
-- Artificial Intelligence
-- Data Structures
-
-Each category contains multiple questions divided into:
-
-- Easy
-- Medium
-- Hard
-
-Questions are randomly selected from the chosen category and difficulty level.
-
----
-
 ## 📸 Screens
 
 - Home Page
