@@ -26,7 +26,7 @@ A modern and interactive **Quiz Application** built using **Python Flask**, desi
   - Questions change every time the quiz is restarted.
 
 - ⏱ Quiz Timer
-  - 15-second countdown for the complete quiz.
+  - 15-second countdown for each question of the quiz.
   - Automatic submission when the timer expires.
 
 - ✅ Answer Validation
