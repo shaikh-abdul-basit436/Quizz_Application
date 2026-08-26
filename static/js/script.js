@@ -84,15 +84,19 @@ document.addEventListener("keydown", function(e) {
 // TAB SWITCH PROTECTION
 // ===============================
 
+const tabWarning = document.getElementById("tabWarning");
+
 document.addEventListener("visibilitychange", function () {
+
+    if (!tabWarning) return;
 
     if (document.hidden) {
 
-        document.body.classList.add("quiz-blurred");
+        tabWarning.style.display = "flex";
 
     } else {
 
-        document.body.classList.remove("quiz-blurred");
+        tabWarning.style.display = "none";
 
     }
 
