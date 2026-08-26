@@ -84,9 +84,9 @@ document.addEventListener("keydown", function(e) {
 // TAB SWITCH PROTECTION
 // ===============================
 
-const tabWarning = document.getElementById("tabWarning");
-
 document.addEventListener("visibilitychange", function () {
+
+    const tabWarning = document.getElementById("tabWarning");
 
     if (!tabWarning) return;
 
