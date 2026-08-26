@@ -88,28 +88,11 @@ document.addEventListener("visibilitychange", function () {
 
     if (document.hidden) {
 
-        // Create warning overlay
-        const overlay = document.createElement("div");
-
-        overlay.id = "tabSwitchOverlay";
-
-        overlay.innerHTML = `
-            <div class="tab-switch-message">
-                <div class="tab-switch-icon">⚠️</div>
-                <h2>Quiz Paused</h2>
-                <p>Please return to the quiz tab to continue.</p>
-            </div>
-        `;
-
-        document.body.appendChild(overlay);
+        document.body.classList.add("tab-hidden");
 
     } else {
 
-        const overlay = document.getElementById("tabSwitchOverlay");
-
-        if (overlay) {
-            overlay.remove();
-        }
+        document.body.classList.remove("tab-hidden");
 
     }
 
