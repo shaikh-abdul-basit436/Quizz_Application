@@ -674,8 +674,39 @@ body {
    TAB SWITCH PROTECTION
    =============================== */
 
-body.quiz-blurred {
-    filter: blur(12px);
-    pointer-events: none;
-    user-select: none;
+#tabWarning {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-warning-box {
+    text-align: center;
+    padding: 35px;
+    width: min(90%, 420px);
+
+    background: #ffffff;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+.tab-warning-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.tab-warning-box h2 {
+    margin-bottom: 10px;
+}
+
+.tab-warning-box p {
+    margin: 0;
 }
