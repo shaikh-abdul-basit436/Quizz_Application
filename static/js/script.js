@@ -1,3 +1,17 @@
+// ===============================
+// RESTART QUIZ ON PAGE REFRESH
+// ===============================
+
+const navigationEntry = performance.getEntriesByType("navigation")[0];
+
+if (
+    navigationEntry &&
+    navigationEntry.type === "reload" &&
+    window.location.pathname === "/quiz"
+) {
+    window.location.href = "/restart";
+}
+
 // Get remaining time from sessionStorage, or start with 15 seconds
 let time = 15;
 
