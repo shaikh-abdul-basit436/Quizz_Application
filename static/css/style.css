@@ -671,35 +671,11 @@ body {
 }
 
 /* ===============================
-   TAB SWITCH BLUR
+   TAB SWITCH PROTECTION
    =============================== */
 
-.quiz-blurred .container {
+body.quiz-blurred {
     filter: blur(12px);
     pointer-events: none;
     user-select: none;
-}
-
-.quiz-blurred::after {
-    content: "⚠️ Quiz Paused — Return to the Quiz Tab";
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-
-    background: rgba(0, 0, 0, 0.95);
-    color: #d4af37;
-
-    padding: 25px 35px;
-    border-radius: 15px;
-
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-
-    border: 2px solid #d4af37;
-    box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
-
-    width: min(80%, 450px);
 }
