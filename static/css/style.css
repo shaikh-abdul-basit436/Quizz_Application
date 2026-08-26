@@ -671,42 +671,45 @@ body {
 }
 
 /* ===============================
-   TAB SWITCH PROTECTION
+   TAB SWITCH OVERLAY
    =============================== */
 
-#tabWarning {
-    display: none;
+#tabSwitchOverlay {
     position: fixed;
     inset: 0;
-    z-index: 99999;
+    z-index: 999999;
 
-    background: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(12px);
-
+    display: flex;
     align-items: center;
     justify-content: center;
+
+    background: rgba(0, 0, 0, 0.85);
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
-.tab-warning-box {
-    text-align: center;
-    padding: 35px;
+.tab-switch-message {
     width: min(90%, 420px);
+    padding: 35px;
 
-    background: #ffffff;
+    text-align: center;
+
+    background: white;
     border-radius: 20px;
 
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
 }
 
-.tab-warning-icon {
+.tab-switch-icon {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-.tab-warning-box h2 {
-    margin-bottom: 10px;
+.tab-switch-message h2 {
+    margin: 0 0 10px;
 }
 
-.tab-warning-box p {
+.tab-switch-message p {
     margin: 0;
 }
