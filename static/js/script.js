@@ -86,17 +86,30 @@ document.addEventListener("keydown", function(e) {
 
 document.addEventListener("visibilitychange", function () {
 
-    const tabWarning = document.getElementById("tabWarning");
-
-    if (!tabWarning) return;
-
     if (document.hidden) {
 
-        tabWarning.style.display = "flex";
+        // Create warning overlay
+        const overlay = document.createElement("div");
+
+        overlay.id = "tabSwitchOverlay";
+
+        overlay.innerHTML = `
+            <div class="tab-switch-message">
+                <div class="tab-switch-icon">⚠️</div>
+                <h2>Quiz Paused</h2>
+                <p>Please return to the quiz tab to continue.</p>
+            </div>
+        `;
+
+        document.body.appendChild(overlay);
 
     } else {
 
-        tabWarning.style.display = "none";
+        const overlay = document.getElementById("tabSwitchOverlay");
+
+        if (overlay) {
+            overlay.remove();
+        }
 
     }
 
