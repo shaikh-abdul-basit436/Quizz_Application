@@ -867,7 +867,6 @@ body.light-mode .review-card{
 body.light-mode .review-card p{
     color:#333333;
 }
-=======
 /* ===============================
    TAB SWITCH PROTECTION
    =============================== */
@@ -906,3 +905,4 @@ body.tab-hidden::before {
 
     pointer-events: none;
 }
+/* 0a61d9df74c66bf091de25e643b8ec3c0f8f4f05
