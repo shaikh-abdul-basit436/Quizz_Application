@@ -1,3 +1,17 @@
+// ===============================
+// RESTART QUIZ ON PAGE REFRESH
+// ===============================
+
+const navigationEntry = performance.getEntriesByType("navigation")[0];
+
+if (
+    navigationEntry &&
+    navigationEntry.type === "reload" &&
+    window.location.pathname === "/quiz"
+) {
+    window.location.href = "/restart";
+}
+
 // Get remaining time from sessionStorage, or start with 15 seconds
 let time = 15;
 
@@ -67,6 +81,7 @@ document.addEventListener("keydown", function(e) {
 });
 
 // ===============================
+<<<<<<< HEAD
 // PWA SERVICE WORKER
 // ===============================
 
@@ -133,3 +148,21 @@ if (themeToggle) {
 
     });
 }
+=======
+// TAB SWITCH PROTECTION
+// ===============================
+
+document.addEventListener("visibilitychange", function () {
+
+    if (document.hidden) {
+
+        document.body.classList.add("tab-hidden");
+
+    } else {
+
+        document.body.classList.remove("tab-hidden");
+
+    }
+
+});
+>>>>>>> 0a61d9df74c66bf091de25e643b8ec3c0f8f4f05
